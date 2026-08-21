@@ -11,6 +11,11 @@ const server = http.createServer((req , res) =>{
         res.write("I am Muhammad Anas , I lived in bahawalpur")
         res.end();
     }
+
+    if(req.url === "/contact"){
+        res.write("I am Muhammad Anas , I lived in bahawalpur , constact us for more info")
+        res.end();
+    }
 })
 
 
